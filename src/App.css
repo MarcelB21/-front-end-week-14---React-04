@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+    font-family: "Arial", sans-serif;
+}
+
+.Pokemon-module {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5vh 5vh;
+}
+
+.PokemonCards {
+    border: 3px solid black;
+    padding: 0vh 6vh;
+    height: 36vw;
+    width: 10vw;
+    margin: 2vh;
+    background: yellow;
+    border-radius: 3vh;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+    margin-bottom: -3vh;
+}
+button {
+    border: 2px solid black;
+    background: red;
+    padding: 2vh;
+    margin-left: 1vh;
+    width: 15vh;
+}
